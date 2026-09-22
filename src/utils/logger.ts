@@ -1,7 +1,7 @@
 // Configuration for the logging middleware
 const config = {
   apiUrl: 'http://20.244.56.144/evaluation-service/logs',
-  authToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJzdWJocmFkaXBkcmF5QGdtYWlsLmNvbSIsImV4cCI6MTc1NDM3MzkwMCwiaWF0IjoxNzU0MzczMDAwLCJpc3MiOiJBZmZvcmQgTWVkaWNhbCBUZWNobm9sb2dpZXMgUHJpdmF0ZSBMaW1pdGVkIiwianRpIjoiOTE5YzkxZjQtNjZkZi00M2Q3LTgzMDItYWRlODFkZmFlODdhIiwibG9jYWxlIjoiZW4tSU4iLCJuYW1lIjoic3ViaHJhZGlwIGRlYnJheSIsInN1YiI6IjQ4MzA4ZGI1LWMyN2ItNGZmYy1iN2FlLTRkNzhjZjE1YTc2OCJ9LCJlbWFpbCI6InN1YmhyYWRpcGRyYXlAZ21haWwuY29tIiwibmFtZSI6InN1YmhyYWRpcCBkZWJyYXkiLCJyb2xsTm8iOiJhMjMwNTIyMjM0NiIsImFjY2Vzc0NvZGUiOiJ5dmhkZGEiLCJjbGllbnRJRCI6IjQ4MzA4ZGI1LWMyN2ItNGZmYy1iN2FlLTRkNzhjZjE1YTc2OCIsImNsaWVudFNlY3JldCI6InRIekFzd3NaVEZ3RGJVdXgifQ._ByyAAm07bBNGCbHKthZwSHDCzHKdPKjHUR0sVo31FXA'
+  authToken: 'TOKEN_REMOVED_FOR_SECURITY' // Original token removed for security
 };
 
 export type LogLevel = 'debug' | 'info' | 'warn' | 'error' | 'fatal';
